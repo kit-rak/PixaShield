@@ -79,6 +79,39 @@ Choose from sidebar options:
 - **Color customization** for each class
 - **Automatic Email Alerts** with detection frame attached
 
+## Model Training Instructions
+
+To use Pixashield, you need to train your own object detection model. We recommend using **YOLOv7** or **YOLOv8**, which are both powerful, efficient models for real-time object detection.
+
+### Steps for Training:
+
+1. **Set Up YOLOv7 or YOLOv8 Environment**:
+   - Follow the official YOLOv7 or YOLOv8 repository for installation and setup instructions.
+     - YOLOv7: [YOLOv7 GitHub Repository](https://github.com/WongKinYiu/yolov7)
+     - YOLOv8: [YOLOv8 GitHub Repository](https://github.com/ultralytics/yolov8)
+   
+2. **Prepare Your Dataset**:
+   - Collect and annotate your images using a tool like LabelImg or Roboflow.
+   - Ensure the dataset is in the required format (e.g., YOLO format with `.txt` annotations).
+
+3. **Training the Model**:
+   - With your dataset ready, you can train the model using the provided training scripts in either YOLOv7 or YOLOv8. Below is an example command for training:
+     ```bash
+     python train.py --data <your_data.yaml> --cfg <your_model_config>.yaml --weights <your_pretrained_weights> --batch-size 16
+     ```
+
+4. **Evaluate and Fine-Tune**:
+   - Once training is complete, evaluate the performance of your model using the validation dataset.
+   - Fine-tune hyperparameters or adjust the model architecture as needed.
+
+5. **Export the Model**:
+   - After training, export the model in a format that Pixashield supports (e.g., `.pt` for PyTorch models).
+
+6. **Integrate with Pixashield**:
+   - Once your model is trained and exported, you can integrate it into the Pixashield system for object detection tasks.
+
+For additional help, refer to the official YOLOv7 or YOLOv8 documentation for detailed steps and troubleshooting.
+
 ## 📧 Email Alert System
 
 Alerts are sent using the `sendmail` function in `alert.py`.  
