@@ -125,11 +125,11 @@ This means any derivative work must also be open-source and GPL licensed.
 
 ## 👨‍💻 Authors
 
+Team PixaShield | Rajasthan Police Hackathon 1.0 Winners 🏆
 - Kartik Prajapati
 - Kunal Pawar
 - Ishan Naik
-- Ishaan Gupta  
-- Team PixaShield | Rajasthan Police Hackathon 1.0 Winners 🏆
+- Ishaan Gupta 
 
 ## 📬 Contact
 - **LinkedIn:** [kit-rak](https://www.linkedin.com/in/kit-rak)
