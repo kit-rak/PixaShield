@@ -26,7 +26,7 @@
 
 ```
 PixaShield/
-├── maink.py               # Main Streamlit application
+├── main.py               # Main Streamlit application
 ├── model_utils.py         # Helper functions for YOLO detection and UI
 ├── alert.py               # Email alert system
 ├── assets/
