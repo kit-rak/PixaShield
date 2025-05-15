@@ -61,7 +61,7 @@ pip install ultralytics
 ### Run the App
 
 ```bash
-streamlit run maink.py
+streamlit run main.py
 ```
 
 ### Login Credentials (default)
