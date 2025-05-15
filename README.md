@@ -40,7 +40,7 @@ PixaShield/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/PixaShield.git
+git clone https://github.com/kit-rak/PixaShield.git
 cd PixaShield
 ```
 
